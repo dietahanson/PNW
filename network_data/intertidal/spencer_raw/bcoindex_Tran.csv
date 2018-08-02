@@ -1,0 +1,13 @@
+TranNum,TranName,TranAzimuth,ReefNum,TranNote,TranWPT,TranAzimuthMark,TranHabitat,TranEasting,TranNorthing
+11,"Prasiola Blue",344,19,,25,30,"bedrock","5409424","0340894"
+12,"Prasiola Yellow",319,19,,26,40,"bedrock","5409418","0340921"
+9,"Haines Yellow",228,20,,23,,"bedrock","5411036","0338620"
+10,"Haines Blue",222,20,,24,,"bedrock","5411064","0338622"
+8,"Wizard Yellow",190,18,"ends at same spot as wizard blue",22,,"bedrock","5413872","0341544"
+7,"Wizard Blue",136,18,"ends at same spot as wizard Y tran",22,,"bedrock","5413872","0341544"
+3,"Morton Yellow",46,16,"Uberlong transect across 'gong show reef'; also WPT 20 at 100m",17,30,"bedrock, cobble, mixedcoarse","5536154","0620200"
+2,"Beach Blue",320,6,,15,10,"bedrock","5539531","0614704"
+1,"Beach Yellow",294,6,,16,10,"bedrock","5539524","0614699"
+4,"Morton Blue",38,13,,21,102,"bedrock","5536090","0620247"
+6,"Bunsby East Blue",76,4,,19,76,"bedrock","5549891","0606587"
+5,"Bunsby East Yellow",69,4,,18,68,"bedrock","5549923","0606586"
