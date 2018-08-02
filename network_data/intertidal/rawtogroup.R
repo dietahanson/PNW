@@ -5,6 +5,7 @@
 
 setwd("~/Documents/PNW/network_data/intertidal")
 library(data.table)
+library(dplyr)
 
 
 # get all required tables
@@ -75,7 +76,7 @@ missing = species[match(missing, species$SpeciesNum),]
 
 # output the list of species
 
-write.csv(alldatmall, file = "taxonlist.csv", row.names = F)
+#write.csv(alldatmall, file = "taxonlist.csv", row.names = F)
 
 
 ################################################################################
@@ -115,34 +116,37 @@ quad_agg = merge(quad_agg, numquad, by = "ReefNum", all.x = T)
 quad_agg$specden = (quad_agg$specsum/(quad_agg$quad.count*0.25))*0.25
 
 
+# we need to make zeros for cases where a species was searched for but not
+# found in a quadrat
+
+reefspec = expand.grid(ReefNum=unique(quad_agg$ReefNum),  # every species/reef
+                       SpeciesNum=unique(quad_agg$SpeciesNum))
+
+quadtotal = merge(quad_agg, reefspec, by=c("ReefNum", "SpeciesNum"),
+                  all.x = T, all.y = T)
+
+quadtotal[is.na(quadtotal$specden),"specden"] <- 0
+
 # add region info
-
-
-quadall = merge(quad_agg, reefs[,c("ReefNum", "RegionName")],
+quadall = merge(quadtotal, reefs[,c("ReefNum", "RegionName")],
                 by = "ReefNum",
                 all.x = T)
 
 # plot differences between regions for each species, using reefs as samples
-
 plot(quadall[quadall$SpeciesNum==100,]$RegionName,
      quadall[quadall$SpeciesNum==100,]$specden)
 
 # run t test on each species to look for sig diff between regions
 
-sp = unique(quadall$SpeciesNum)
+sp = unique(quadall$SpeciesNum) 
 
 reg = levels(quadall$RegionName)
 
 quadall$pval = 0
 
-for (w in 1:length(sp)) {
+for (w in 1:length(sp)) {  # loop over species
   
   spnum = sp[w]
-  
-  if ( (nrow(quadall[quadall$SpeciesNum==spnum &
-                  quadall$RegionName==reg[1],])>1) &&
-    (nrow(quadall[quadall$SpeciesNum==spnum &
-                  quadall$RegionName==reg[2],])>1)) {
   
   test = t.test(quadall[quadall$SpeciesNum==spnum,]$specden ~    
                   quadall[quadall$SpeciesNum==spnum,]$RegionName)
@@ -150,10 +154,6 @@ for (w in 1:length(sp)) {
   pval = test$p.value  
   
   quadall[quadall$SpeciesNum==spnum,]$pval = pval 
-  } else {
-    
-    quadall[quadall$SpeciesNum==spnum,]$pval = NA
-  }
   
 }
 
