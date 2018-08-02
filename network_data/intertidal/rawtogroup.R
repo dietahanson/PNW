@@ -169,18 +169,18 @@ sigspec = merge(sigspec, species[,c("SpeciesNum", "SpeciesName")],
 ## known outcomes for the loop analysis
 ################################################################################
 
-tran.data = data.table(tran)
-
-# get total distance of transect
-tran.data = as.data.frame(tran.data[, list(mindist = min(BeltDistStart),
-                                           maxdist = max(BeltDistStop),
-                                           totaldist = max(BeltDistStop)-
-                                             min(BeltDistStart),
-                                           beltnum = length(unique(
-                                             BeltDistStart))),
-                                   by = list(TranNum, BeltRep)])
-
-tran.data$area = (tran.data$beltnum*5)*0.5
+# tran.data = data.table(tran)
+# 
+# # get total distance of transect
+# tran.data = as.data.frame(tran.data[, list(mindist = min(BeltDistStart),
+#                                            maxdist = max(BeltDistStop),
+#                                            totaldist = max(BeltDistStop)-
+#                                              min(BeltDistStart),
+#                                            beltnum = length(unique(
+#                                              BeltDistStart))),
+#                                    by = list(TranNum, BeltRep)])
+# 
+# tran.data$area = (tran.data$beltnum*5)*0.5
 
 
 
