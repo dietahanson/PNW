@@ -3,7 +3,7 @@
 ## into buildweb.r to build a network
 ###############################################################################
 
-setwd("~/Documents/PNW/network_data/intertidal")
+setwd("~/Documents/PNW/intertidal")
 library(data.table)
 library(dplyr)
 
@@ -18,6 +18,7 @@ tran = read.csv(file = "spencer_raw/bcoraw_BeltTran.csv")
 look = read.csv(file = "spencer_raw/bcoraw_SppSearch.csv")
 quad = read.csv(file = "spencer_raw/bcoraw_VertQuad.csv")
 species = read.csv(file = "spencer_raw/bcoindex_Species.csv")
+notspecies = species[species$SpecSSPGroup=="none",]
 
 
 ###############################################################################
@@ -111,9 +112,9 @@ numquad = as.data.frame(quad.data[, list(quad.count =
 quad_agg = merge(quad_agg, numquad, by = "ReefNum", all.x = T)
 
 # get number of individuals/% cover per 0.25m^2 by dividing total by number of 
-# quads * 0.25m^2 (which gives #/% per m^2), then multiply by 0.25m^2
+# quads * 0.25m^2 (which gives #/% per m^2)
 
-quad_agg$specden = (quad_agg$specsum/(quad_agg$quad.count*0.25))*0.25
+quad_agg$specden = (quad_agg$specsum/(quad_agg$quad.count*0.25))
 
 
 # we need to make zeros for cases where a species was searched for but not
@@ -169,19 +170,34 @@ sigspec = merge(sigspec, species[,c("SpeciesNum", "SpeciesName")],
 ## known outcomes for the loop analysis
 ################################################################################
 
-# tran.data = data.table(tran)
-# 
-# # get total distance of transect
-# tran.data = as.data.frame(tran.data[, list(mindist = min(BeltDistStart),
-#                                            maxdist = max(BeltDistStop),
-#                                            totaldist = max(BeltDistStop)-
-#                                              min(BeltDistStart),
-#                                            beltnum = length(unique(
-#                                              BeltDistStart))),
-#                                    by = list(TranNum, BeltRep)])
-# 
-# tran.data$area = (tran.data$beltnum*5)*0.5
+tran.data = data.table(tran)
 
+# get total area of each rep of each transect
+tran.data = as.data.frame(tran.data[, list(mindist = min(BeltDistStart),
+                                           maxdist = max(BeltDistStop),
+                                           beltnum = length(unique(
+                                             BeltDistStart))),
+                                   by = list(TranNum, BeltRep)])
 
+tran.data$area = (tran.data$beltnum*5)*0.5
 
+# now add area to tran
+tran.int = merge(tran, tran.data[,c("TranNum", "BeltRep", "area")],
+                 by = c("TranNum", "BeltRep"), all.x = T) 
 
+# add reef data because we summarize by reef, not transect
+
+tran.int = merge(tran.int, sects[,c("TranNum", "ReefNum")],
+                 by = "TranNum",
+                 all.x = T)
+
+# now get total area for each transect (calculations allow for each belt rep of
+# a transect to have a different area, in case this ever happens)
+
+tran.int$totalarea = 0
+
+for (i in unique(tran.int$TranNum)) {
+  tran.int[tran.int$TranNum==i,]$totalarea = 
+    unique(tran.int[tran.int$TranNum==i & tran.int$BeltRep==1,]$area) +
+    unique(tran.int[tran.int$TranNum==i & tran.int$BeltRep==2,]$area)
+}
