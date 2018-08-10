@@ -191,13 +191,31 @@ tran.int = merge(tran.int, sects[,c("TranNum", "ReefNum")],
                  by = "TranNum",
                  all.x = T)
 
-# now get total area for each transect (calculations allow for each belt rep of
+# now get total area for each reef (calculations allow for each belt rep of
 # a transect to have a different area, in case this ever happens)
 
-tran.int$totalarea = 0
+tran.int$totalareatran = 0
 
-for (i in unique(tran.int$TranNum)) {
-  tran.int[tran.int$TranNum==i,]$totalarea = 
-    unique(tran.int[tran.int$TranNum==i & tran.int$BeltRep==1,]$area) +
-    unique(tran.int[tran.int$TranNum==i & tran.int$BeltRep==2,]$area)
-}
+
+totalarea = as.data.frame(tran.int[, list(maxarea = 
+                                           max(area), minarea=min(area)),
+                                  by = list(TranNum, ReefNum, BeltRep)])
+
+totalarea = data.table(totalarea)
+
+totalareabyreef = as.data.frame(totalarea[, list(smax=sum(maxarea), smin=sum(minarea)),
+                                   by = list(ReefNum)])
+
+
+# now aggregate species by reef
+
+tran_agg = as.data.frame(tran.int[, list(specsum = sum(BeltAbundance)),
+                                   by = list(ReefNum, SpeciesNum)])
+
+# add total area
+
+tranall = merge(tran_agg, tran.int[,c("ReefNum", "totalarea")],
+                by.x = "ReefNum",by.y = "ReefNum", all.x = T, all.y = F)
+head(tran_agg)
+
+
