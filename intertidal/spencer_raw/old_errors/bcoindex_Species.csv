@@ -1,0 +1,231 @@
+SpeciesNum,SpeciesName,SpecAddDate,SpecCode,SpecNotes,DataEntryName,SpecSSPGroup,SpecTSN
+197,"Egregia menzesii Holdfast","20100530","EgmeHf","Holdfast percent cover","E menzesii Holdfast","brown alga","11305"
+198,"Saccharina sessile Holdfast","20100530","SaseHf","percent cover holdfasts","H sessile Holdfast","brown alga","11255"
+199,"Transect Distance","20100609","TraDis","Distance along transect in DECImeters, to make it an integer.  Weird, yes, but that's how it was measured, and otherwise it'll be the only decimal num.","Tdistance","none",
+200,"Lottiidae Recruits","20100609","LotRec","Limpet recruits","Lottiidae Recruits","limpet","204927"
+201,"Substrate","20100609","Substr","the divers' categories as.numeric: 1=bedrock 2=boulder 3=cobble 4=mixed coarse 5=gravel 6=sand 7=mud","Substrate","none",
+202,"Elevation","20100609","Elevat","elevation above datum in INCHES; for use with belt trans, the quad elevations are given in index_quad table","Elevation","none",
+203,"Pikea Farlowia Complex","20100530","PiFaCo","I'm having a hell of a time distinguishing these (or even deciding if I have both or just one).  Made some presses.  Lumping them together.","Pikea Farlowia Complex","red alga",
+204,"TO ID YELLOW SPONGE IN SURFGRASS","20100931","TOIDYS","hard yellow sponge that lives amongst phyllospadix.  Pretty common.","TO ID YELLOW SPONGE IN SURFGRASS","sponge",
+205,"UID Spider","20100606","UIDSpi","terrestrial spider; seen in intertidal amonst mussels and barnacles at Bunsby West and Bunsby East sites (>2 at each); according to guides, there aren't any intertidal spiders in BC; either they've all wandered astray (not likely) or that's incorrect; no collection, but some photos; would be nice to get this Idd","UID Spider","arachnid",
+206,"Gobiesox spp","20100610","Gobspp","I'm not skilled enough to ID these; Dana Idd the G meandricus from a photo, but I see lots of others in the kelp; Dana said these are a diff species, but I can't tell; so lumping everything else (besides the one she idd) to genus","Gobiesox spp","fish",
+207,"Ritterella rubra","20100610","Ritrub","Like ""red blobs of jelly""; bright red is a distinguishing feature, so is ""little to no sand""; I'm pretty confident of this ID using web pics and Lights manual","Ritterella rubra","tunicate",
+208,"UID Orange Fungus Bryozoan","20100610","UIDOFB","An orange bzoan crust that flares up around edges to look like a fungus; very similar to this image (http://seanet.stanford.edu/Bryozoa/index.html#Membranipora_fusca) of Membranipora fusca and (http://www2.ucsc.edu/seymourcenter/Inverts/Bryozoa/Hippoporina_insculpta/Hippoporina_insculpta.html) of Hippoporina insculpta, among others, so I'm unsure of the ID","UID Orange Fungus Bryozoan","bryozoan",
+209,"Sand","20100610","Sandxx","And sand or sediment smaller than cobble","Sand","none",
+210,"Bossiella spp","20100610","Bosspp",,"Bossiella spp","red alga","12441"
+212,"Cucumaria miniata","20100611","Cucmin","Large orange cucumber; up through 20100618 I thought they were Parastichipus, but based on what sarah told me and lots of photo-browsing I think they were all Cucmin (20100715)","Cucumaria miniata","cucumber",
+213,"Styela spp","20100611","Styspp","orange tunicate on stalk","Styela spp","tunicate",
+214,"Polynoidae","20100611","Polyno","scale worm family; many many genera","Scale Worm Complex","worm","64397"
+6,"Endocladia muricata","20100530","Endmur",,"Endocladia muricata","red alga","12287"
+15,"Neorhodomela larix","20100530","Neolar",,"N larix","red alga","13577"
+22,"Balanus nubilus","20100530","Balnub","big","B nubilus","barnacle","656266"
+31,"Mopalia spp","20100530","Mopspp","All hairy chitons","Mopalia sp","chiton","78980"
+39,"Semibalanus cariosus","20100530","Semcar","leaves no scar if removed (unlike Balanus spp)","S cariosus","barnacle","89688"
+40,"Lottia persona","20100530","Lotper","name updated from Tectura to Lottia on 20080201 on info from Doug Earnisse","T persona","limpet","568350"
+48,"Phascolosoma agassizi","20100530","Phaaga","Peanut worms","Phascolosoma agassizi","worm","154698"
+59,"Enhydra lutris","20100530","Enhlut","otter","Enhydra lutris","mammal","180547"
+71,"Corvus corax","20100530","Corcur","Raven","Corvus corax","bird","179725"
+87,"Mazzaella flaccida","20100530","Mazfla","green with rough margin","M flaccida","red alga",
+102,"Strongylocentrotus purpuratus","20100530","Strpur","purple urchins","S purpuratus","urchin","157975"
+113,"Chlorostoma funebralis","20100530","Chlfun",,"T funebralis","snail","69950"
+124,"Platyhelminthes","20100530","Platyh","All flatworms","Platyhelminthes","worm","53963"
+148,"Bittium spp","20100531","Bitspp","long and skinny","Bittium spp","snail","71976"
+153,"Brachyramphus marmoratus","20100531","Bramar","marbled murrelet","Brachyramphus marmoratus","bird","176996"
+1,"Analipus japonicus","20100530","Anajap",,"A japonicus","brown alga","11002"
+2,"Callithamnion pikeanum","20100530","Calpik",,"C pikeanum","red alga","12937"
+3,"Costaria costata","20100530","Coscos","3 x 2 ribs","Costaria costata","brown alga","11250"
+4,"Cryptosiphonia woodii","20100530","Crywoo",,"C woodii","red alga","12254"
+5,"Delesseria decipiens","20100530","Deldec","pretty red blade with bladelets","Delesseria decipiens","red alga","13241"
+7,"Fucus gardneri","20100530","Fucgar",,"F gardneri","brown alga","11341"
+8,"Gloiopeltis furcata","20100530","Glofur",,"Gloiopeltis furcata","red alga","12291"
+9,"Halosaccion glandiforme","20100530","Halgla",,"H glandiforme","red alga","12825"
+10,"Saccharina sessile","20100530","Sacses","name changed from Hedophyllum to Saccharina on 20080404 to keep up with taxonomy","H sessile","brown alga","11255"
+11,"Leathesia difformis","20100530","Leadif",,"Leathesia difformis","brown alga","10961"
+12,"Mastocarpus papillatus","20100530","Maspap",,"Mastocarpus papillatus","red alga",
+13,"Melanosiphon intestinalis","20100530","Melint","Twisted; easily confused with S simplissimus, but darker and lacking constrictions","Melanosiphon intestinalis","brown alga","11061"
+14,"Microcladia borealis","20100530","Micbor",,"Microcladia borealis","red alga","13081"
+16,"Odonthalia floccossa","20100530","Odoflo",,"O floccossa","red alga","13586"
+17,"Pilayella littoralis","20100530","Pillit","Usually epiphytic on Fucus gardneri","Pilayella littoralis","brown alga","10824"
+18,"Plocamium cartilageneum","20100530","Plocar","Big; low zone; WAY out of range; check presses; probably mis-ID'd; maybe Odontalia sp in O'clair","P cartilageneum","red alga","11968"
+19,"Verrucaria maura","20100530","Vermau",,"Verrucaria maura","lichen",
+20,"Acmaea mitra","20100530","Acmmit",,"Acmaea mitra","limpet","69662"
+21,"Balanus glandula","20100530","Balgla","scutum tergum cross is sinuous; one black smudge on each scutum; leaves scar if removed (unlike Semibalanus spp)","B glandula","barnacle","89609"
+23,"Chthamalus dalli","20100530","Chtdal","duh","Chthamalus dalli","barnacle","89592"
+24,"Halichondria panicea","20100530","Halpan","green and yellow sponge","Halichondria panicea","sponge","48396"
+25,"Haliclona spp","20100530","Halspp","purple sponge","Haliclona sp","sponge","47771"
+26,"Idotea wosnesenskii","20100530","Idowos",,"Idotea wosnesenskii","isopod","92612"
+27,"Katharina tunicata","20100530","Kattun",,"Katharina tunicata","chiton","78979"
+28,"Leptasterias spp","20100530","Lepspp",,"Leptasterias epichlora","star","157225"
+29,"Littorina sitkana","20100530","Litski",,"L sitkana","snail","70397"
+30,"Lottia digitalis","20100530","Lotdig",,"L digitalis","limpet","567816"
+32,"Mytilus trossulus","20100530","Myttro",,"M trossulus","bivalve","567928"
+33,"Nucella canaliculata","20100530","Nuccan","ridges all same size (always?); operculum opening less of total height than Nuclim; sutures (base of whorls) more distinct than in Nuclim","N canaliculata","whelk","73293"
+34,"Pagurus hirsutiusculus","20100530","Paghir",,"P hirsutiusculus","crab","97788"
+35,"Pododesmus macrochisma","20100530","Podmac","False Jingle; glued to rock; image 6416-6418","Pododesmus macrochisma","bivalve","79792"
+36,"Pugettia spp","20100530","Pugspp","All kelp crabs","Pugettia sp","crab","98435"
+37,"Pycnopodia helianthoides","20100530","Pychel",,"Pycnopodia helianthoides","star","157274"
+38,"Neomolgus littoralis","20100530","Neolit","red mite","Neomolgus littoralis","terrestrial arthropod","82757"
+41,"Lottia scutum","20100530","Lotscu","name updated from Tectura to Lottia on 20080201 on info from Doug Earnisse","T scutum","limpet","568351"
+42,"Tonicella spp","20100530","Tonspp","All Tonicella chitons","Tonicella spp","chiton","78897"
+43,"Mytilus californianus","20100530","Mytcal",,"M californianus","bivalve","79455"
+44,"Mazzaella parksii","20100530","Mazpar",,"Mazzaella parksii","red alga",
+45,"Onchidella borealis","20100530","Oncbor","Leather limpets","Onchidella borealis","limpet","78762"
+46,"Henricia leviuscula","20100530","Henlev",,"Henricia leviuscula","star","157157"
+47,"Cryptochiton stelleri","20100530","Cryste",,"Cryptochiton stelleri","chiton","79032"
+49,"Hiatella arctica","20100530","Hiaarc","bivalve, small, white, red siphons, lives in cracks and under rocks, open at top.","Hiatella arctica","bivalve","81765"
+50,"Lacuna variegata","20100530","Lacvar","Beefier and squater and smaller and usually lower than Litsit","Lacuna variegata","snail","70377"
+51,"Cucumaria vegae","20100530","Cucveg","black small one","Cucumaria vegae","cucumber","158208"
+52,"Nemertea","20100530","Nemert","All nemerteans.  Most are prob Paranemertes peregrina","Nemertea","worm","57411"
+53,"Nereididae","20100530","Nereid","All nereid worms","Nereididae","worm","65870"
+54,"Haematopus bachmani","20100530","Haebac","oysterchatchers","Haematopus bachmani","bird","176475"
+55,"Gammaridea","20100530","Gamari","All gammarid amphipods (suborder)","Gammaridea","amphipod","93295"
+56,"Phoca vitulina","20100530","Phovit","harbor seal","Phoca vitulina","mammal","180649"
+57,"Dermasterias imbricata","20100530","Derimb","webbed star; always orangish and smooth/squishy; see also Patiria which is usually darker and always more leathery","Dermasterias imbricata","star","157139"
+58,"Diaulula sandiegensis","20100530","Diasan","leopard nudibranch; brown and tan","Diaulula sandiegensis","nudibranch","78188"
+60,"Haliaeetus leucocephalus","20100530","Halleu","bald eagle","Haliaeetus leucocephalus","bird","175420"
+61,"Serpulidae","20100530","Serpul","All Serpula big calc tube worms","Serpulidae","worm","68232"
+62,"Nereocystis leutkeana","20100530","Nerleu","Bull Kelp","Nereocystis leutkeana","brown alga","11277"
+63,"Pagurus spp","20100530","Pagspp","Any Pagarus that weren't IDd to spp","Pagurus spp","crab","97775"
+64,"Lottia paradigitalis","20100530","Lotpar","high limpet; cone shaped; dark bands around outer rim; previously L strigatella","L strigatella","limpet",
+66,"Ceramium spp","20100530","Cerspp","Any Ceramium looking species","Ceramium spp","red alga","12978"
+67,"Polysiphonia hendryii","20100530","Polhen",,"Polysiphonia hendryii","red alga","13441"
+68,"Lottia pelta","20100530","Lotpel",,"L pelta","limpet","567823"
+69,"Ulva spp","20100530","Ulvspp","Any thin green sheet","Ulva spp","green alga","6559"
+70,"Acrosiphonia spp","20100530","Acrmer","with hooks","Acrosiphonia spp","green alga","6722"
+72,"Ulva intestinalis","20100530","Ulvint",,"Ulva intestinalis","green alga","6536"
+73,"Prasiola spp","20100530","Praspp","Any Prasiola species","Prasiola spp","green alga","6394"
+74,"Rostanga pulchra","20100530","Rospul","Red nudibranch; often under 1cm; usually in association with red sponge","Rostanga pulchra","nudibranch","78211"
+75,"Diaulota densissima","20100530","Diaden","High shore beetle","Diaulota densissima","terrestrial arthropod","113270"
+76,"Eumetopias jubatus","20100530","Eumjub","Stellar sea lion","Eumetopias jubatus","mammal","180625"
+77,"Hydrozoa","20100530","Hydroz","Any UIDd hydroid","Hydrozoa","hydroid","48739"
+78,"Tunicata","20100530","Tunica","Any other UIDd tunicate; excluding the 'Orange Brain'","Tunicate","tunicate","203347"
+79,"Porphyra spp","20100530","Porspp","all porphyras except P nereocystis","Porphyra spp","red alga","11540"
+80,"Hildenbrandia rubra","20100530","Hilrub","All bright red crusts","Hildenbrandia rubra","red alga",
+81,"Smithora naidum","20100530","Sminai","epiphyte on Zostera","Smithora naidum","red alga","11524"
+82,"Chaetomorpha spp","20100530","Chaspp","Like Acrosiphonia except crunch when ya bite em","Chaetomorpha spp","green alga","6747"
+83,"Cladophora spp","20100530","Claspp","All cladophoras forming green tufts/matts","Cladophora spp","green alga","6763"
+84,"Ophlitaspongia pennata","20100530","Ophpen","red sponge","Ophlitaspongia pennata","sponge","48006"
+86,"Pisaster ochraceus","20100530","Pisoch",,"Pisaster ochraceus","star","157253"
+88,"Phyllospadix scouleri","20100530","Physco","surf grass, flat","Phyllospadix scouleri","seagrass","39071"
+89,"Egregia menzesii","20100530","Egrmen",,"Egregia menzesii","brown alga","11305"
+90,"Calliostoma ligatum","20100530","Callig","distinguished from other Calliost sp by pronounced rounded whorls","C ligatum","snail","69798"
+91,"Codium fragile","20100530","Codfra",,"C fragile","green alga","6897"
+92,"Codium setchellii","20100530","Codset","Codset has microscopic utricles, Codrit has large utricles, visible without magnification; Changed from Codium adhaerens (20100606)","C setchellii","green alga",
+93,"Urticina lofotensis","20100530","Urtlof","bright red; image 6405","Urticina lofotensis","anemone",
+94,"Cryptopleura Complex","20100530","CryCom","All thin red cryptopleura-like red blades","Cpleura Complex","red alga",
+95,"Dodecaceria sp","20100530","Dodspp","Little tube worms colonies often in coralline crusts","Dodecaceria sp","worm","67165"
+96,"Anthopleura elegantissima","20100530","Antele",,"A elegantissima","anemone","52552"
+97,"Corraline Crust Complex","20100530","CoCrCo","All corraline crust algae except Melobesia","Coralline Crust Complex","red alga",
+98,"Prionitis spp","20100530","Prispp","Probably P lanceolata, but not keyed","Prionitis spp","red alga","12591"
+99,"UID Orange Brain Tunicate","20100530","UIDOBT","Orangish and translucent tunicate; v common; image 6407","Orange Brain Tunicate","tunicate",
+100,"Membranipora spp","20100530","Memspp","all white encrusting bzoans; often encrusting prionitis in Kyuquot; may include other similar white encrusting bzoans?; changed from Flustrellidra (20100716) because at least 2 of 3 (and probably the 3rd) entered records were misID'd - don't know what the hell I was thinking","Membranipora spp","bryozoan",
+101,"Melobesia spp","20100530","Melspp","encrusting coralline on phyllospadix","Melobesia spp","red alga",
+103,"Schizymenia pacifica","20100530","Schpac","slippery red blades; gabrielson","Schizymenia pacifica","red alga","12161"
+104,"Crustose Brown Alga Complex","20100530","CBACom","These are crustose brown algae in Class Phaeophyceae; many different Orders; often just alternate life stages of species with noncrustose forms","Crustose Brown Alga Complex","brown alga",
+105,"Laminaria setchellii","20100530","Lamset","pretty red blade with bladelets","L setchellii","brown alga",
+106,"Pollicipes polymerus","20100530","Polpol",,"Pollicipes polymerus","barnacle","89476"
+107,"Osmundea spectabilis","20100530","Osmspe","Lauspe TSN=13534","Osmundea spectabilis","red alga",
+108,"Clavelina spp","20100530","Clvspp","light bulb tunicate; image 6408","Clavelina spp","tunicate",
+109,"Petrolisthes spp","20100530","Petspp","Porcellin crab; flattened; round carapace; similar to Pachyceles, but with smooth claws","Petrolisthes spp","crab","98059"
+110,"Desmarestia munda","20100530","Desmun","keyed Gabrielson; ITIS says not accepted -> D ligulatum","Desmarestia munda","brown alga","11318"
+111,"Chlorostoma pulligo","20100530","Chlpul","umbilicus open; distinguished from C bunnea by flatter sides/no distinctly rounded whorls","T pulligo","snail","69949"
+112,"Chlorostoma brunnea","20100530","Chlbru","umbilicus open; distinguished from C pulligo by rounder more distinct whorls","T brunnea","snail","69956"
+114,"Heteropora spp","20100530","Hetspp","hard staghorn bryozoan; yellow to cream","Heteropora spp","bryozoan",
+115,"Chondracanthus exasperata","20100530","Conexa",,"C exasperata","red alga",
+116,"Mazzaella splendens","20100530","Mazspl",,"M splendens","red alga",
+118,"Crepidula spp","20100530","Crespp","All slipper snails","Crepidula spp","snail","72619"
+119,"Eupentacta WHICH SPECIES","20100530","EupXXX","WHICH SPECIES IS THIS?  FROM GDAR","Eupentacta GDA REEF","cucumber",
+125,"Gastroclonium subarticulatum","20100531","Gassub",,"Gastroclonium subarticulatum","red alga",
+126,"Sandy Tube Worm Complex","20100531","STWCom","All sandy encased tube worms (hard or soft)","Sandy Tube Worm Complex","worm",
+127,"Amphissa spp","20100531","Ampspp","Any Amphissa spp","Amphissa spp","whelk","73534"
+129,"Smooth Chiton Complex","20100531","SChCom","All smooth chitons","Smooth Chiton Complex","chiton",
+131,"Gunnell Complex","20100531","GunCom","All gunnel-looking fish, including pricklebacks, etc","Gunnell Complex","fish",
+133,"TO ID LOW GREY BALANUS","20100531","TOIDGB","low shore, compressed, grey","TO ID LOW GREY BALANUS","barnacle",
+134,"Porifera","20100531","Porife","Any unIDd sponge; excludes Haliclona, Halichondria","Porifera","sponge","46861"
+135,"Diptera","20100531","Dipter","Any true fly","Diptera","insect","118831"
+136,"Sculpin Complex","20100531","ScuCom","Any sculpin fish","Sculpin Complex","fish",
+138,"Cnemidocarpa finmarkiensis","20100531","Cnefin","tunicate; red; siphons off to one side; smooth; oclair and sketches in Lights; somewhat certain of this ID; however, it could be Metrandrocarpa if it's colonial; see plate 29 in little Kozloff guide","Cnemidocarpa finmarkiensis","tunicate",
+139,"Erythrophyllum delesserioides","20100531","Erydel","blade","Erythrophyllum delesserioides","red alga",
+141,"Diodora aspera","20100531","Dioasp","Keyhole limpet","Diodora aspera","limpet","69549"
+142,"Urticina piscivora","20100531","Urtpis","Rosey anemone (lights); pretty certain of ID;","Urticina piscivora","anemone","611869"
+143,"Sphaeromatidae","20100531","Sphaer","Any 'pill bug' isopod such as Gnorimosphaeroma","Sphaeromatidae","isopod","92283"
+147,"Lirularia spp","20100531","Lirspp","small, squatty, offset snail with faint ridges; not certain about ID, could be Homalapoma sp?, so more using this genus to collect Lirularia-like snails","Lirularia spp","snail",
+149,"Plocamium violaceum","20100531","Plovio",,"P violaceum","red alga","11966"
+150,"Rhodoglossum affine","20100531","Rhoaff","looks like some of the low NZ gigartinas; ID from MAC; reasonably certain ID; pressed 20100531","Rhodoglossum affine","red alga","12141"
+151,"Larus spp","20100531","Larspp","all gulls","Larus spp","bird",
+152,"Turdus migratorius","20100531","Turmig","american robin","Turdus migratorius","bird","179759"
+154,"Spirorbidae","20100531","Spiror","All spirorbids","Spirorbidae","worm","68383"
+155,"Scytosiphon dotyi","20100531","Scydot","no constrictions","Scytosiphon dotyi","brown alga","11440"
+157,"Porphyra nereocystis","20100531","Porner","porphyra epiphytic on Ner leut","P nereocystis","red alga","11547"
+158,"Polinices spp","20100531","Polspp","big moon snails","Polinices spp","snail","72911"
+159,"Gymnolaemata","20100601","Gymnol","Marine bryozoans; previously Bryozoa (Bryozo) (changed 20100606)","Gymnolaemata","bryozoan","155471"
+160,"Liparocephalus spp","20100601","Lipspp","Like Diaulota, but more lines; not certain of ID; Lights","Liparocephalus spp","insect",
+161,"Ceratostoma foliatum","20100601","Cerfol",,"Ceratostoma foliatum","whelk","73240"
+163,"Lontra canadensis","20100601","Loncan","river otter","Lontra canadensis","mammal",
+164,"Lessoniopsis littoralis","20100601","Leslit",,"Lessoniopsis littoralis","brown alga",
+165,"Orcinus orca","20100530","Orcorc","killer whale","Orcinus orca","mammal","180469"
+166,"Crustose Green Alga Complex","20100602","CGACom","All green algal crusts","Crustose Green Alga Complex","green alga",
+168,"Evasterias troschelii","20100602","Evatro",,"Evasterias troschelii","star","157224"
+169,"Microcladia coulteri","20100602","Miccou",,"M coulteri","red alga",
+170,"Pelvetiopsis limitata","20100602","Pellim",,"Pelvetiopsis limitata","brown alga","11354"
+172,"Histrionicus histrionicus","20100605","Hishis","Harlequin duck","Histrionicus histrionicus","bird","175149"
+175,"Neovison vison","20100606","Neovis","American mink","Neovison vison","mammal",
+176,"Gobiesox maeandricus","20100606","Gobmae","ID by Dana from photos from high pool at Bunsby West; she says there are only two (common?) clingfish; this one and the kelp clingfish like is common on Sanak","Gobiesox maeandricus","fish",
+177,"Calliostoma canaliculatum","20100607","Calcan","Distinguished from Callig by flat-sided whorls, yellow tan to white , prominent revolving cords that are paler than interspaces, blue stain next to columella","C canaliculatum","snail",
+178,"Fratercula cirrhata","20100608","Fracir","Tufted puffin","Fratercula cirrhata","bird",
+180,"Hermissenda crassicornis","20100610","Hercra",,"Hermissenda crassicornis","nudibranch","78699"
+181,"Laminaria bongardiana","20100610","Lambon","blade broad, flat, and dark at base.  was most likely confusing this with Lam set until now","Laminaria bongardiana","brown alga",
+183,"Halobisium occidentale","20100616","Halocc","pseudoscorpion","Halobisium occidentale","pseudoscorpion",
+184,"Sargassum muticum","20100615","Sarmut",,"Sargassum muticum","brown alga",
+185,"Navicula spp","20100616","Navspp","diatom chains","Navicula spp","diatom",
+188,"Lirabuccinum dirum","20100530","Lirdir","Early on, I was confused by this one bc I'm not used to seeing it on the exposed shores; but that must be what it is; don't know what else it could be","Searlisia dira","whelk",
+189,"Caprellidae","20100530","Carpre","Caprellid amphipods","Caprellidae","amphipod","95375"
+190,"AA NO SPECIES FOUND","20100530","AANoSF","No species found in sampling unit","AA NO SPECIES FOUND","none",
+121,"Cancer productus","20100530","Canpro","similar to Canore, but widest at last tooth on carapace, black tip claws","C productus","crab","98672"
+235,"Anthopleura artemesia","20100615","Antart","often buried in sand, white lines on tents","Anthopleura artemesia","anemone",
+237,"Ursus americanus","20100618","Ursame","black bear","Ursus americanus","mammal",
+174,"Saldidae","20100606","Saldid","True bug; totally black; oval shaped; IDd by dieta in Bams in 200608.","Saldidae","insect",
+217,"Placiphorella velata","20100611","Plavel","carnivorous chiton!","Placiphorella velata","chiton",
+219,"UID Creamy Orange Nobrain Tunicate","20100611","UIDCON","orangy to creamy tunicate without the brainy appearance","UID Creamy Orange Nobrain Tunicate","tunicate",
+220,"UID Bright Pink Bryozoan","20100611","UIDBPB","bright pink bzoan crust; its hard and rough to touch","UID Bright Pink Bryozoan","bryozoan",
+221,"Balanophyllia elegans","20100611","Balele","hard orange cups; cool; photo on 20100611; sarah could ID off-hand; she's certain of the ID from 20100611","Balanophyllia elegans","cup coral",
+223,"Pterygophora californica","20100612","Ptecal",,"Pterygophora californica","brown alga",
+224,"Epiactis prolifera","20100612","Epipro","little brown anemone often with white stripes around base and little brooded babies on column","Epiactis prolifera","anemone",
+225,"Flustrellidra spp","20100614","Fluspp","upright fuzzy mittens","Flustrellidra spp","bryozoan",
+226,"Pleurophycus gardneri","20100614","Plegar","like Lam sacharina but with a distinct midrib and prob longer stipe","Pleurophycus gardneri","brown alga",
+227,"Constantinea simplex","20100614","Consim",,"Constantinea simplex","red alga",
+230,"Megaceryle alcyon","20100615","Megalc","kingfisher","Megaceryle alcyon","bird",
+231,"Corvus brachyrhynchos","20100615","Corbra","american crow","Corvus brachyrhynchos","bird",
+130,"Megatabennus bimaculatus","20100531","Megbim","definitely a megatabennus, but I guess I'm not 100% certain it's this spp; see photos from from Gay Pass Site","Megatabennus bimaculatus","limpet",
+173,"Nemalion helminthoides","20100606","Nemhel","there's only one Nemalion species","Nemalion helminthoides","red alga",
+215,"Scallop Complex","20100611","ScaCom","scallops make up some but not all genera in the family Pectinidae","Scallop Complex","bivalve","san140"
+236,"Gymnogongrus Complex","20100616","GymCom","all wiry little red seaweeds; a complex because it probably includes ahnfeltia/opsis, etc","Gymnogongrus Complex","red alga",
+216,"TO ID CODIOCOLAX","20100611","TOIDCO","epiphytic red filament on Codium; this is funny, Google's only record of this spp is from TBD!  Not in MAC, Gabrielson, etc.  Dude.  Where the hell did we ever get this name from?  Gayle's list?  For now I'm leaving it on this list, but I think there's a good chance this is just a polysiphonia sp.","Codiocolax spp","red alga",
+85,"Anthopleura xanthogrammica","20100530","Antxan",,"A xanthogrammica","anemone","52553"
+191,"AA MISSING DATA","20100530","AAMiDa","Unit was not sampled","AA MISSING DATA","none",
+192,"Bare Space Secondary","20100609","BareSe",,"B Secondary","none",
+193,"Bare Space Primary","20100609","BarePr",,"B Primary","none",
+194,"Slope","20100530","Slopex","1 (flat) - 10 (vertical)","Slope","none",
+195,"Roughness","20100530","Roughn","1 (smooth) - 10 (rough)","Roughness","none",
+171,"Lithopoma gibberosa","20100604","Litgib","Previously Astraea gibberosa (Astgib) (changed 20100606)","Lithopoma gibberosa","snail","70118"
+132,"Alaria marginata","20100531","Alamar",,"Alaria marginata","brown alga","11293"
+187,"Ralfsia fungiformis","20100615","Ralfun","brown algal crust that looks like fungus","Ralfsia fungiformis","brown alga","10855"
+120,"Oedignathus inermis","20100530","Oedine","originally called TO ID Big Handed Crab; quite common; pics on 20100530 (eg); one large claw, with many bumps","Oedignathus inermis","crab","97929"
+156,"Ligia spp","20100531","Ligspp","extreme high shore","Ligia spp","isopod","93226"
+228,"Siphonaria thersites","20100614","Sipthe",,"Siphonaria thersites","limpet","76444"
+128,"Macrocystis pyrifera","20100531","Macpyr","sarah says pyrifera and integr were combined into the same species","Macrocystis pyrifera","brown alga","11274"
+140,"Littorina scutulata","20100531","Litscu","am separating the Litts into Litsit and Litscu: ignoring intermediate spp like Lit uh, what's it called","L scutulata","snail","70401"
+234,"Ophiurida","20100615","Ophiur","Class containing all brittle stars","Ophiurida","star","157382"
+233,"Cancer gracilis","20100615","Cangra","similar to Canore and Canpro, but white claw tips, and often larger (to 4.5in wide); distinguished from Canmag by widest at carapace 2nd to last (9th) spine, instead of last (10th) spine","Cancer gracilis","crab","98676"
+186,"Cancer oregonensis","20100530","Canore","small (<2in) filter-feeding, rounded carapace, black tip claws; prior to 201006XX there was confusion with Conpro; I think it's safe to assume that all Canpro prior to then were Canore, so they're being changed.","C oregonensis","crab","98677"
+145,"Hemigrapsus nudus","20100531","Hemnud","purple shore crab","H nudus","crab","99035"
+146,"Hemigrapsus oregonensis","20100531","Hemore",,"H oregonensis","crab","99036"
+117,"Archidoris montereyensis","20100530","Arcmon","with spots that extend onto papillae.  I realized the distinction between this and A nobilis on 20100603 and decided they were all this species after some more looking around Kyuquot; SAT says new name is Doris mon.","Archidoris montereyensis","nudibranch","78213"
+232,"Dirona albolineata","20100615","Diralb","all white nudibranch with bright white trim and tips","Dirona albolineata","nudibranch","78580"
+182,"Triopha catalinae","20100610","Tricat","clown nudi; white with orange dots","Triopha catalinae","nudibranch","78332"
+229,"Tubulanus spp","20100615","Tubspp","really long (up to 3m) skinny bright red nemertean; probably T polymorphus","Tubulanus spp","worm","57416"
+218,"Rhodymenia spp","20100611","Rhospp","Small red blades like cpleura, but a little firmer with lobate rounded tips; I'm not sure everything going into this group is in this genus, but it's a good guess","Rhodymenia spp","red alga","12753"
+211,"Patiria miniata","20100611","Patmin","webbed star, like Dermas but darker and leatherier","Patiria miniata","star","157133"
+123,"Nucella emarginata","20100530","Nucema",,"N emarginata","whelk","73295"
+137,"Ocenebra spp","20100531","Ocespp",,"Ocenebra spp","whelk","73242"
+179,"Corallina spp","20100530","Corspp","Common coralline; not tubular","Corallina spp","red alga","12322"
