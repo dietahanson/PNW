@@ -5,6 +5,7 @@
 ################################################################################
 
 setwd("~/Documents/PNW/subtidal/")
+library(data.table)
 
 ################################################################################
 ## First, quadrat data
@@ -91,9 +92,6 @@ for (w in 1:length(sp)) {  # loop over species
 
 sigspec = quadtotal[(quadtotal$pval<0.05) &
                     (!is.na(quadtotal$pval)),]
-
-#sigspec = merge(sigspec, species[,c("SpeciesNum", "SpeciesName")],
-                by = "SpeciesNum", all.x = T, all.y = F)
 
 
 
